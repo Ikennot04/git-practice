@@ -1,0 +1,144 @@
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+body {
+  background: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+  background-size: 400% 400%;
+  animation: gradient 20s ease infinite;
+}
+
+.all {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #afa4a4;
+  font-family: 'Roboto Mono', monospace;
+  color: #f2f2f2;
+}
+
+.container {
+  display: flex;
+}
+
+.banking-container,
+.bankdetails {
+  flex: 1;
+  height: 200px;
+  padding: 8%;
+  margin: 1px;
+  font-size: 20px;
+}
+
+.bankdetails{
+  background:  #bbadad ;
+  background-size: 400% 400%;
+  animation: gradient 20s ease infinite;
+  color: black;
+ 
+}
+.banking-container{
+  color: black;
+  
+}
+.divider {
+  border-left: 1px solid #f2f2f2;
+  height: 100%;
+}
+.Kent {
+  color: #f2f2f2;
+  font-size: 2.85em;
+  background-color: transparent;
+  border-bottom: 2px solid #f2f2f2;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+
+.words {
+  color: #f2f2f2;
+  font-size: medium;
+  background-color: transparent;
+}
+
+button {
+  color: #0e0c0c;
+  background: wheat ;
+  border: solid 1px #f2f2f2;
+  cursor: pointer;
+  font-size: 1.2em;
+  margin-top: 1em;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  color: #29c9c9;
+  background: #f2f2f2;
+}
+
+option {
+  color: #1c1c1c;
+  background: #f2f2f2;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  font-size: medium;
+}
+
+input {
+  border: none;
+  margin-right: 1em;
+  font-size: 1em;
+  padding: .65em 1em;
+  border-radius: .3em;
+  outline: 0;
+  background-color: #4facfe;
+  color: #f2f2f2;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+#buttonDeposit,
+#buttonWithdraw {
+  width: 8em;
+  font-size: 1.2em;
+}
+
+#submit {
+  width: 8em;
+  font-size: 1.2em;
+}
+
+#accname_number, #newbalance {
+  color: #f2f2f2;
+  font-size: 2em;
+  margin-top: 1em;
+  font-family: "Lato", sans-serif;
+}
+
+#login-container {
+  margin: 50px auto;
+  width: 80%;
+  padding: 20px;
+  border: 1px solid #CCCCCC;
+  border-radius: 5px;
+  text-align: center;
+    background:  #bbadad ;
+}
+#login-btn {
+  background-color: #0071C5;
+  color: #FFFFFF;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
